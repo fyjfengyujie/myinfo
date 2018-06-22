@@ -6,7 +6,8 @@
 
     <groupId>com.phicomm.fengyujie</groupId>
     <artifactId>fengyujie</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>v1</version>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
