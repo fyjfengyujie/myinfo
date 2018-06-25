@@ -13,6 +13,6 @@ public class InfoController {
     @ResponseBody
     public String getIndex(){
 
-        return "hello";
+        return "hello fengyujie,you are success!";
     }
 }
