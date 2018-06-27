@@ -1,9 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
 <title>Nature Theme</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link href="../static/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link th:href="@{/css/screen.css}" type="text/css" rel="stylesheet" media="screen,projection" />
 <link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
 </head>
 <body>
@@ -35,7 +36,7 @@
 	<div class="inner_copyright">Collect from <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></div>
     <div id="obsah" class="content box">
       <div class="in">
-        <div class="shadow"> <img src="img/image.jpg" alt="" class="thumb" /> </div>
+        <div class="shadow"> <img th:src="@{/img/image.jpg}" alt="" class="thumb" /> </div>
         <ul class="columns">
           <li class="col1">
             <h3>Lorem ipsum</h3>

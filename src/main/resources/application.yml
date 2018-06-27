@@ -2,4 +2,7 @@
 #  port: 9001
 #  servlet:
 #    context-path: /myinfo
-
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML5
