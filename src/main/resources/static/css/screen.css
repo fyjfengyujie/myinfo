@@ -2,7 +2,7 @@
 body, div, span, p, a, img, ul, ol, li, table, th, tr, td, form, fieldset, legend, dl, dt, dd, blockquote, applet, object { border:0; }
 body { 
   padding: 0; 
-  background: #fff url("/img/bg.jpg") repeat-x;
+  background: #fff url("../img/bg.jpg") repeat-x;
   font: 0.8em/1.5 "arial",sans-serif; 
   color: #354146; 
   text-align: center; 
@@ -85,14 +85,14 @@ h5 { font-size:100%; }
       padding: 20px 0 30px;
     }
     p.intro{
-      background: url("/img/line.jpg");
+      background: url("../img/line.jpg");
       line-height: 23px;
       margin:0 0 0;
     }
     .shadow{
       border-top: 1px solid #dddddd;
       padding: 10px 0;
-      background: url("/img/shadow.jpg") no-repeat;
+      background: url("../img/shadow.jpg") no-repeat;
     }
     img.thumb{padding: 3px; background: #fff; border: 1px solid #d1d1d1;}
     
